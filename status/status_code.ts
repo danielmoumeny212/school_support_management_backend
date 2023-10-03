@@ -1,0 +1,22 @@
+export const HTTPCONTINUE = 100; 
+export const HTTPNOTACCEPTABLE = 406; 
+export const HTTPFORBIDDEN = 403; 
+export const HTTPBADREQUEST = 400
+export const HTTPNOTFOUND = 404; 
+export const HTTPOK = 200; 
+export const HTTPUNAUTHORIZED = 401;
+export const HTTPCREATED = 201; 
+export const HTTPACCEPTED = 202; 
+export const HTTPSERVERINTERNAL= 500; 
+
+export default  {
+  HTTPFORBIDDEN, 
+  HTTPCONTINUE, 
+  HTTPNOTACCEPTABLE,
+  HTTPBADREQUEST, 
+  HTTPNOTFOUND, 
+  HTTPOK, 
+  HTTPUNAUTHORIZED, 
+  HTTPACCEPTED
+}
+
